@@ -1,0 +1,66 @@
+p {
+    color:white;
+    background-color: #0C234B;
+    text-align: center;
+}
+
+header h1{
+    background-color: #AB0520;
+    color:white;
+    text-decoration: solid;
+    text-align: center;
+
+}
+
+.Announcement{
+    color:white;
+    background-color: #0C234B;
+    text-align: center;
+}
+
+div img{   
+    max-width: 60vw;
+    background-color: #0C234B;
+}
+
+.page{
+    background-color: #0C234B;
+    border-color: #0C234B;
+    margin-left: 3.5vw;
+    border-width: .5vw;
+    border-radius: 3vw;
+    padding: 2vw;
+    color: white;
+    align-self: center;
+    text-decoration: solid;
+    min-width: 15vw;
+}
+
+.page:hover{
+    background-color: white;
+    border-color: #0C234B;
+    border-width: .5vw;
+    margin-left: 3.5vw;
+    border-radius: 3vw;
+    padding: 2vw;   
+    color: #0C234B;
+    align-self: center;
+    text-decoration: solid;
+    min-width: 15vw;
+}
+
+.scroll{
+    min-height: 40vw;
+    max-width: 20vw;
+    min-width: 10vw;
+    background-color: rgba(0,0,0,0.3);
+    border:none;
+}
+
+.scroll:hover{
+    min-height: 40vw;
+    max-width: 20vw;
+    min-width: 10vw;
+    background-color: rgba(255,255,255,0.1);
+    border:none;
+}

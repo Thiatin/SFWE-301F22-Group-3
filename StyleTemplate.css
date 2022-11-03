@@ -1,0 +1,44 @@
+
+header h1{
+    background-color: #AB0520;
+    color:white;
+    text-decoration: solid;
+    text-align: center;
+
+}
+
+p {
+    color:white;
+    background-color: #0C234B;
+    text-align: center;
+}
+
+div {
+    margin:3vw;
+}
+
+.page{
+    background-color: #0C234B;
+    border-color: #0C234B;
+    margin-left: 3.5vw;
+    border-width: .5vw;
+    border-radius: 3vw;
+    padding: 2vw;
+    color: white;
+    align-self: center;
+    text-decoration: solid;
+    min-width: 10vw;
+}
+
+.page:hover{
+    background-color: white;
+    border-color: #0C234B;
+    border-width: .5vw;
+    margin-left: 3.5vw;
+    border-radius: 3vw;
+    padding: 2vw;   
+    color: #0C234B;
+    align-self: center;
+    text-decoration: solid;
+    min-width: 10vw;
+}
