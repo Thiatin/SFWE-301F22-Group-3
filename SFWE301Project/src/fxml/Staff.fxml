@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <children>
+      <Label layoutX="191.0" layoutY="21.0" text="Staff Page">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button layoutX="24.0" layoutY="33.0" mnemonicParsing="false" onAction="#navHomepage" text="Home">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Text layoutX="75.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sharon ONeal" wrappingWidth="227.970703125" />
+      <Text layoutX="75.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Juliana Lincoln" wrappingWidth="227.970703125" />
+      <Text layoutX="75.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Saldana" wrappingWidth="227.970703125" />
+      <ImageView fitHeight="106.0" fitWidth="289.0" layoutX="365.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SharonHeadshot.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="289.0" layoutX="429.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SaldanaHeadshot.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="289.0" layoutX="303.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/JulianaHeadshot.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="71.0" layoutX="14.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/UALogoTransparent.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
