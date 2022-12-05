@@ -13,7 +13,7 @@
          <font>
             <Font name="Ayuthaya" size="48.0" />
          </font></Text>
-      <Button layoutX="31.0" layoutY="34.0" mnemonicParsing="false" onAction="#navHomepage" text="Home" />
+      <Button layoutX="31.0" layoutY="34.0" mnemonicParsing="false" onAction="#navHomepage" text="back" />
       <ImageView fitHeight="48.0" fitWidth="56.0" layoutX="14.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../../../../Downloads/UALogoTransparent.png" />
