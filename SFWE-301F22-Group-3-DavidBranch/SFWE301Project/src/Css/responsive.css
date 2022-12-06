@@ -1,0 +1,27 @@
+
+
+.button{
+    -fx-background-color: #0C234B;
+    -fx-background-radius: 50 50 50 50;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: white;
+    -fx-text-fill: #0C234B;
+}
+
+.button2{
+    -fx-background-color: #F4EDE5;
+    -fx-background-radius: 50 50 50 50;
+    -fx-text-alignment: center;
+    -fx-text-fill: #0C234B;
+}
+
+.title{
+    -fx-background-color: #AB0520;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-background-radius: 0 0 0 0;
+}
