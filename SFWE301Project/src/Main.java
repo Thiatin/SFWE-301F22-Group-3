@@ -15,6 +15,8 @@ public class Main extends Application {
     public void start(Stage stage) {
         try {
 
+
+            //making initial landing page the homepage
             stage.initStyle(StageStyle.DECORATED);
             Parent root = FXMLLoader.load(getClass().getResource("fxml/Homepage.fxml"));
             Scene scene = new Scene(root);
@@ -23,6 +25,7 @@ public class Main extends Application {
             Screen screen = Screen.getPrimary();
             Rectangle2D bounds = screen.getVisualBounds();
 
+            //setting the program to be fullscreen
             stage.setX(bounds.getMinX());
             stage.setY(bounds.getMinY());
             stage.setWidth(bounds.getWidth());
