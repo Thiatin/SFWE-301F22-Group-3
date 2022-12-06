@@ -22,14 +22,14 @@ public class SceneController {
  }
 
  public void navClubs(ActionEvent event) throws IOException {
-    Parent root = FXMLLoader.load(getClass().getResource("fxml/Clubs.fxml"));
+   root = FXMLLoader.load(getClass().getResource("fxml/Clubs.fxml"));
     stage = (Stage)((Node)event.getSource()).getScene().getWindow();
     scene = new Scene(root);
     stage.setScene(scene);
     stage.show();
  }
  public void navResources(ActionEvent event) throws IOException {
-    Parent root = FXMLLoader.load(getClass().getResource("fxml/Resources.fxml"));
+   root = FXMLLoader.load(getClass().getResource("fxml/Resources.fxml"));
     stage = (Stage)((Node)event.getSource()).getScene().getWindow();
     scene = new Scene(root);
     stage.setScene(scene);
@@ -37,7 +37,7 @@ public class SceneController {
 }
  
  public void navActivities(ActionEvent event) throws IOException {
-  Parent root = FXMLLoader.load(getClass().getResource("fxml/Activities.fxml"));
+  root = FXMLLoader.load(getClass().getResource("fxml/Activities.fxml"));
   stage = (Stage)((Node)event.getSource()).getScene().getWindow();
   scene = new Scene(root);
   stage.setScene(scene);
@@ -45,7 +45,7 @@ public class SceneController {
  }
 
  public void navStaff(ActionEvent event) throws IOException {
-    Parent root = FXMLLoader.load(getClass().getResource("fxml/Staff.fxml"));
+    root = FXMLLoader.load(getClass().getResource("fxml/Staff.fxml"));
     stage = (Stage)((Node)event.getSource()).getScene().getWindow();
     scene = new Scene(root);
     stage.setScene(scene);
@@ -53,7 +53,7 @@ public class SceneController {
  }
 
  public void navAbout(ActionEvent event) throws IOException {
-    Parent root = FXMLLoader.load(getClass().getResource("fxml/About.fxml"));
+    root = FXMLLoader.load(getClass().getResource("fxml/About.fxml"));
     stage = (Stage)((Node)event.getSource()).getScene().getWindow();
     scene = new Scene(root);
     stage.setScene(scene);

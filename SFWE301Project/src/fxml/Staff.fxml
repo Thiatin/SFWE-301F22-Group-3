@@ -1,119 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
-   <bottom>
-      <GridPane BorderPane.alignment="CENTER">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <ImageView fitHeight="55.0" fitWidth="59.0" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
-               <image>
-                  <Image url="@../images/UALogoTransparent.png" />
-               </image>
-               <GridPane.margin>
-                  <Insets bottom="10.0" left="10.0" />
-               </GridPane.margin>
-            </ImageView>
-            <ImageView fitHeight="37.0" fitWidth="231.0" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
-               <image>
-                  <Image url="@../images/UAEngineering.png" />
-               </image>
-               <GridPane.margin>
-                  <Insets bottom="10.0" right="10.0" />
-               </GridPane.margin>
-            </ImageView>
-         </children>
-      </GridPane>
-   </bottom>
-   <top>
-      <GridPane prefHeight="70.0" prefWidth="457.0" BorderPane.alignment="CENTER">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Staff Page" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="TOP">
-               <font>
-                  <Font name="Rockwell" size="75.0" />
-               </font>
-               <GridPane.margin>
-                  <Insets top="20.0" />
-               </GridPane.margin>
-            </Text>
-            <Button mnemonicParsing="false" onAction="#navHomepage" GridPane.halignment="LEFT" GridPane.valignment="TOP">
-               <graphic>
-                  <ImageView fitHeight="26.0" fitWidth="24.0">
-                     <image>
-                        <Image url="@../images/backarrow.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-               <GridPane.margin>
-                  <Insets left="10.0" top="10.0" />
-               </GridPane.margin>
-            </Button>
-         </children>
-      </GridPane>
-   </top>
-   <center>
-      <GridPane BorderPane.alignment="CENTER">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sharon ONeal" GridPane.rowIndex="1" />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Saldana" GridPane.rowIndex="2" />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lincoln" GridPane.rowIndex="3" />
-            <ImageView GridPane.columnIndex="2" GridPane.rowIndex="1">
-               <image>
-                  <Image url="@../images/SharonHeadshot.jpg" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="200.0" fitWidth="156.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
-               <image>
-                  <Image url="@../images/SaldanaHeadshot.jpeg" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="200.0" fitWidth="133.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
-               <image>
-                  <Image url="@../images/JulianaHeadshot.jpg" />
-               </image>
-            </ImageView>
-         </children>
-      </GridPane>
-   </center>
-</BorderPane>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ab0520" height="200.0" layoutY="88.0" stroke="BLACK" strokeType="INSIDE" width="3840.0" />
+      <Text fill="WHITE" layoutX="796.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="University of Arizona Software Engineering Staff" wrappingWidth="2542.13671875">
+         <font>
+            <Font name="Cooper Black" size="96.0" />
+         </font>
+      </Text>
+      <Button layoutX="200.0" layoutY="125.0" mnemonicParsing="false" prefHeight="121.0" prefWidth="172.0" stylesheets="@../Css/responsive.css" />
+      <FontAwesomeIconView fill="WHITE" glyphName="HOME" layoutX="251.0" layoutY="199.0" size="60" wrappingWidth="960.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0c234b" height="1432.0" layoutX="2.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="3836.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ab0520" height="100.0" layoutX="-2.0" layoutY="2022.0" stroke="BLACK" strokeType="INSIDE" width="3840.0" />
+      <ImageView fitHeight="656.0" fitWidth="576.0" layoutX="270.0" layoutY="607.0">
+         <image>
+            <Image url="@../images/SaldanaHeadshot.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="671.0" fitWidth="602.0" layoutX="1611.0" layoutY="602.0">
+         <image>
+            <Image url="@../images/SharonHeadshot.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="676.0" fitWidth="605.0" layoutX="2928.0" layoutY="578.0">
+         <image>
+            <Image url="@../images/JulianaHeadshot.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="1493.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Professor Sharon O'Neal" wrappingWidth="1030.13671875">
+         <font>
+            <Font name="Cooper Black" size="72.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="101.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Diana Saldana Jimenez" wrappingWidth="1042.13671875">
+         <font>
+            <Font name="Cooper Black" size="72.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="2832.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Advisor Juliana Lincoln" wrappingWidth="902.13671875">
+         <font>
+            <Font name="Cooper Black" size="72.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="1533.0" layoutY="1365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: sharononeal@arizona.edu ">
+         <font>
+            <Font name="Cooper Black" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="1532.0" layoutY="1445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Degrees: M.S. Computer Engineer and B.S. Computer Science" wrappingWidth="1116.3203125">
+         <font>
+            <Font name="Cooper Black" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="2857.0" layoutY="1366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: julianalincoln@arizona.edu ">
+         <font>
+            <Font name="Cooper Black" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="228.0" fitWidth="246.0" layoutX="1810.0" layoutY="1560.0">
+         <image>
+            <Image url="@../images/frame.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="2860.0" layoutY="1445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Degrees: M.A. Rehabilitation and Mental Health Counseling and B.S. Human Development and Family Studies" wrappingWidth="888.3203125">
+         <font>
+            <Font name="Cooper Black" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="3136.0" layoutY="1599.0">
+         <image>
+            <Image url="@../images/frame%20(1).png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="158.0" layoutY="1360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: dianasaldana@arizona.edu ">
+         <font>
+            <Font name="Cooper Black" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="154.0" layoutY="1452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Degrees: PhD Computer Science Education, M.S. Computer Science, and B.S. Computer Engineering" wrappingWidth="1116.3203125">
+         <font>
+            <Font name="Cooper Black" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="492.0" layoutY="1572.0">
+         <image>
+            <Image url="@../images/frame%20(2).png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="1415.0" layoutY="2091.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powered by Conor, Daniel, Ryan, and Thomas">
+         <font>
+            <Font name="Cooper Black" size="48.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
