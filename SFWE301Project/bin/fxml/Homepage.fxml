@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Point3D?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -7,14 +8,19 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
    <children>
-      <GridPane prefHeight="400.0" prefWidth="600.0">
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutY="81.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="174.0" prefWidth="3840.0" styleClass="title" stylesheets="@../Css/responsive.css" text="Welcome to the World of Software Engineering">
+         <font>
+            <Font name="Cooper Black" size="96.0" />
+         </font>
+      </Button>
+      <GridPane layoutX="13.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" stylesheets="@../Css/responsive.css">
         <columnConstraints>
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -31,52 +37,64 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to SFWE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <ImageView fitHeight="1123.0" fitWidth="2562.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../images/UAFireworks.png" />
+               </image>
+            </ImageView>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to SFWE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#navResources" prefHeight="200.0" prefWidth="550.0" text="Academics" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="Cooper Black" size="55.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#navClubs" prefHeight="200.0" prefWidth="550.0" text="Clubs" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="Cooper Black" size="55.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#navActivities" prefHeight="200.0" prefWidth="550.0" text="Activities" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="Cooper Black" size="55.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#navResources" prefHeight="200.0" prefWidth="550.0" text="Programming" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="Cooper Black" size="55.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#navAbout" prefHeight="200.0" prefWidth="550.0" text="Announcement" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="Cooper Black" size="55.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="313.0" fitWidth="330.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+               <image>
+                  <Image url="@../images/UALogoTransparent.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="256.0" fitWidth="638.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <image>
+                  <Image url="@../images/UAEngineering.png" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#navStaff" prefHeight="200.0" prefWidth="550.0" text="Staff" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="Cooper Black" size="55.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="1120.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #0C234B;" width="200.0" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="1120.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #0C234B;" width="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
          </children>
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
       </GridPane>
-      <Button layoutX="42.0" layoutY="24.0" mnemonicParsing="false" onAction="#navClubs" text="Clubs" AnchorPane.topAnchor="24.0">
-         <font>
-            <Font name="Rockwell" size="13.0" />
-         </font>
-      </Button>
-      <Button layoutX="164.0" layoutY="24.0" mnemonicParsing="false" onAction="#navResources" text="Resources" AnchorPane.topAnchor="24.0">
-         <font>
-            <Font name="Rockwell" size="13.0" />
-         </font>
-      </Button>
-      <Button layoutX="300.0" layoutY="24.0" mnemonicParsing="false" onAction="#navActivities" text="Activities" AnchorPane.topAnchor="24.0">
-         <font>
-            <Font name="Rockwell" size="13.0" />
-         </font>
-      </Button>
-      <Button layoutX="424.0" layoutY="24.0" mnemonicParsing="false" onAction="#navStaff" text="Staff" AnchorPane.topAnchor="24.0">
-         <font>
-            <Font name="Rockwell" size="13.0" />
-         </font>
-      </Button>
-      <Button layoutX="513.0" layoutY="24.0" mnemonicParsing="false" onAction="#navAbout" text="About" AnchorPane.topAnchor="24.0">
-         <font>
-            <Font name="Rockwell" size="13.0" />
-         </font>
-      </Button>
       <ImageView fitHeight="48.0" fitWidth="56.0" layoutX="14.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../../../../Downloads/UALogoTransparent.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="40.0" fitWidth="71.0" layoutX="14.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/UALogoTransparent.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="40.0" fitWidth="169.0" layoutX="417.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/UAEngineering.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="205.0" fitWidth="638.0" layoutX="66.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/UAFireworks.png" />
          </image>
       </ImageView>
    </children>

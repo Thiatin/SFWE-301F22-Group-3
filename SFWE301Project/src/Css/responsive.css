@@ -1,0 +1,26 @@
+.body {
+
+    -fx-background-image: url(jellyfish.jpg);
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.button{
+    -fx-background-color: #0C234B;
+    -fx-background-radius: 50 50 50 50;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: white;
+    -fx-text-fill: #0C234B;
+}
+
+.title{
+    -fx-background-color: #AB0520;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-background-radius: 0 0 0 0;
+}
