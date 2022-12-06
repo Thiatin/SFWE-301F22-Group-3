@@ -15,31 +15,46 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" stylesheets="@../Css/responsive.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
    <children>
       <GridPane prefHeight="2160.0" prefWidth="3840.0">
-         <columnConstraints>
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-         </columnConstraints>
-         <rowConstraints>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-         </rowConstraints>
+        </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" onAction="#navActivitiesQ1" prefHeight="242.0" prefWidth="479.0" text="Quiz" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <Button mnemonicParsing="false" onAction="#navCheck1" prefHeight="242.0" prefWidth="224.0" text="A" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#navActivitiesQ1w" prefHeight="242.0" prefWidth="224.0" text="B" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#navActivitiesQ1w" prefHeight="242.0" prefWidth="224.0" text="C" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <font>
                   <Font name="Cooper Black" size="96.0" />
                </font>
             </Button>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ab0520" height="200.0" stroke="BLACK" strokeType="INSIDE" width="3840.0" />
-            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Activities">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Who can you go to for academic course planning?" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1">
                <font>
                   <Font name="Cooper Black" size="96.0" />
                </font>
@@ -47,18 +62,33 @@
                   <Insets left="225.0" />
                </GridPane.margin>
             </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Advisor Juliana Lincoln" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Professor Sharon ONeal" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor Diana Saldana" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Text>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ab0520" height="107.0" stroke="BLACK" strokeType="INSIDE" width="3840.0" GridPane.rowIndex="5" />
             <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Powered by Conor, David, Ryan, and Thomas" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5">
                <font>
                   <Font name="Cooper Black" size="48.0" />
                </font>
             </Text>
-            <Button mnemonicParsing="false" onAction="#navHomepage" prefHeight="237.0" prefWidth="467.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <Button mnemonicParsing="false" onAction="#navHomepage" prefHeight="175.0" prefWidth="265.0" GridPane.columnIndex="6">
                <font>
                   <Font name="Cooper Black" size="96.0" />
                </font>
                <graphic>
-                  <ImageView fitHeight="167.0" fitWidth="167.0">
+                  <ImageView>
                      <image>
                         <Image url="@../images/home.png" />
                      </image>
