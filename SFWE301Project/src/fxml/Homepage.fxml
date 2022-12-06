@@ -97,7 +97,7 @@
       </GridPane>
       <ImageView fitHeight="48.0" fitWidth="56.0" layoutX="14.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../../Downloads/UALogoTransparent.png" />
+            <Image url="@../images/UALogoTransparent.png" />
          </image>
       </ImageView>
    </children>
