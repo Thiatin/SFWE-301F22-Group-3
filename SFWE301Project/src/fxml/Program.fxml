@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" stylesheets="@../Css/responsive.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <children>
+      <GridPane prefHeight="2160.0" prefWidth="3840.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ab0520" height="200.0" stroke="BLACK" strokeType="INSIDE" width="3840.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SALT Center" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Program" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="225.0" />
+               </GridPane.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Think Tank" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DRC" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Financial Aid" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ab0520" height="107.0" stroke="BLACK" strokeType="INSIDE" width="3840.0" GridPane.rowIndex="5" />
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Powered by Conor, David, Ryan, and Thomas" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Cooper Black" size="48.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="THINK TANK offers course-specific academic support services in math, science, business, and language. Our Writing Center and academic skills services provide support that can be helpful in any class. Most of our services are free! We‘re currently offering all services online. Students can visit thinktank.arizona.edu for more information about our services and schedules." textAlignment="CENTER" wrappingWidth="1354.5120849609375" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cooper Black" size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The Strategic Alternative Learning Techniques (SALT) Center is an academic support program that provides services to University of Arizona students with learning and attention challenges. Our innovative approach is recognized as one of the most successful at promoting student achievement in the university setting." textAlignment="CENTER" wrappingWidth="1296.6658935546875" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Cooper Black" size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Disability Resource Center (DRC) ensures disability access for our campus. We work to create a universally designed campus and reduce the need for individual accommodations through proactive collaboration with University partners." textAlignment="CENTER" wrappingWidth="1057.856689453125" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cooper Black" size="36.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" onAction="#navHomepage" prefHeight="175.0" prefWidth="265.0" GridPane.columnIndex="8">
+               <font>
+                  <Font name="Cooper Black" size="96.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="HOME" />
+               </graphic>
+            </Button>
+            <ImageView fitHeight="200.0" fitWidth="200.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../images/ThinkTankqr.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="200.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../images/SALTqr.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="200.0" GridPane.columnIndex="7" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../images/DRCqr.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="200.0" GridPane.columnIndex="7" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../images/FinancialAidqr.png" />
+               </image>
+            </ImageView>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Your education is one of the smartest investments you will make in your lifetime, and your University of Arizona degree will pay you back many times over. We do our best to make paying for college easy. And when it comes to navigating financial wellness, we’re always here to help. " textAlignment="CENTER" wrappingWidth="1102.697265625" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Cooper Black" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
