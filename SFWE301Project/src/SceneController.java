@@ -18,7 +18,10 @@ public class SceneController {
  private Button leftPhotoButton;
  private Button rightPhotoButton;
  
+//every following class constructs a new specific page when it is called (when button is hit)
+
  public void navHomepage(ActionEvent event) throws IOException {
+     //set homepage.fxml as page to navigate then display
       root = FXMLLoader.load(getClass().getResource("fxml/Homepage.fxml"));
       stage = (Stage)((Node)event.getSource()).getScene().getWindow();
       stage.getScene().setRoot(root);
