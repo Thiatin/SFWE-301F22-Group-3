@@ -16,7 +16,7 @@
       <Button layoutX="31.0" layoutY="34.0" mnemonicParsing="false" onAction="#navHomepage" text="back" />
       <ImageView fitHeight="48.0" fitWidth="56.0" layoutX="14.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../../Downloads/UALogoTransparent.png" />
+            <Image url="@../images/UALogoTransparent.png" />
          </image>
       </ImageView>
       <Text layoutX="65.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="David Rudell - Software Undergraduate" wrappingWidth="227.970703125" />
