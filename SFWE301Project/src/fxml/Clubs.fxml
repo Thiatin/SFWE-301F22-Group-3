@@ -25,12 +25,12 @@
       </Text>
       <ImageView fitHeight="504.0" fitWidth="732.0" layoutX="179.0" layoutY="500.0">
          <image>
-            <Image url="@../../../../../../Downloads/flowcode.png" />
+            <Image url="@../images/flowcode.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="524.0" fitWidth="780.0" layoutX="157.0" layoutY="1164.0">
          <image>
-            <Image url="@../../../../../../Downloads/Clubs.png" />
+            <Image url="@../images/Clubs.png" />
          </image>
       </ImageView>
       <Text fill="WHITE" layoutX="1073.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scan the QR code to view all of the Engineering clubs at the University of Arizona" wrappingWidth="650.13671875">
