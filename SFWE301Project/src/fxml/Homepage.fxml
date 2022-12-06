@@ -54,7 +54,7 @@
                   <Image url="@../images/UAFireworks.png" />
                </image>
             </ImageView>
-            <Button mnemonicParsing="false" onAction="#navResources" prefHeight="200.0" prefWidth="500.0" text="Academics" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+            <Button mnemonicParsing="false" onAction="#navAcademics" prefHeight="200.0" prefWidth="500.0" text="Academics" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
                <font>
                   <Font name="Cooper Black" size="55.0" />
                </font>
@@ -69,7 +69,7 @@
                   <Font name="Cooper Black" size="55.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" onAction="#navResources" prefHeight="200.0" prefWidth="500.0" text="Programming" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+            <Button mnemonicParsing="false" onAction="#navProgram" prefHeight="200.0" prefWidth="500.0" text="Program" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
                <font>
                   <Font name="Cooper Black" size="55.0" />
                </font>
@@ -79,9 +79,23 @@
                   <Font name="Cooper Black" size="55.0" />
                </font>
             </Button>
-            <Button fx:id="rightPhotoButton" mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" styleClass="button2" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+            <Button fx:id="rightPhotoButton" mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" styleClass="button2" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+               <graphic>
+                  <ImageView>
+                     <image>
+                        <Image url="@../images/icons8-chevron-right-75.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#001c48" height="1167.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="649.0" GridPane.rowIndex="3" />
-            <Button fx:id="leftPhotoButton" mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" styleClass="button2" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
+            <Button fx:id="leftPhotoButton" mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" styleClass="button2" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3">
+               <graphic>
+                  <ImageView>
+                     <image>
+                        <Image url="@../images/icons8-chevron-left-75.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
             <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="SFWE 301 Students have officially completed their semester projects!" wrappingWidth="843.4702968597412" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <font>
                   <Font name="Cooper Black" size="96.0" />
@@ -95,10 +109,5 @@
             <Insets />
          </opaqueInsets>
       </GridPane>
-      <ImageView fitHeight="48.0" fitWidth="56.0" layoutX="14.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/UALogoTransparent.png" />
-         </image>
-      </ImageView>
    </children>
 </AnchorPane>
