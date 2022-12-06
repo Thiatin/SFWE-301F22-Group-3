@@ -17,6 +17,19 @@
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f4ede5" height="2160.0" stroke="BLACK" strokeType="INSIDE" width="3840.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#001c48" height="1267.0" layoutY="624.0" stroke="BLACK" strokeType="INSIDE" width="3840.0" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutY="30.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="174.0" prefWidth="3840.0" style="-fx-background-color: #AB0520;" text="Welcome to the World of Software Engineering" textFill="WHITE">
+         <font>
+            <Font name="Cooper Black" size="96.0" />
+         </font>
+         <padding>
+            <Insets top="30.0" />
+         </padding>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutY="2050.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="83.0" prefWidth="3840.0" style="-fx-background-color: #AB0520;" text="Powered by Conor, David, Ryan, and Thomas" textFill="WHITE">
+         <font>
+            <Font name="Cooper Black" size="37.0" />
+         </font>
+      </Button>
       <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" stylesheets="@../Css/responsive.css">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -36,12 +49,11 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <ImageView fitHeight="1123.0" fitWidth="2562.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <ImageView fitHeight="1069.0" fitWidth="2488.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <image>
                   <Image url="@../images/UAFireworks.png" />
                </image>
             </ImageView>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to SFWE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
             <Button mnemonicParsing="false" onAction="#navResources" prefHeight="200.0" prefWidth="500.0" text="Academics" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
                <font>
                   <Font name="Cooper Black" size="55.0" />
@@ -67,27 +79,14 @@
                   <Font name="Cooper Black" size="55.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" styleClass="button2" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" styleClass="button2" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
-            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="83.0" prefWidth="3840.0" styleClass="title" stylesheets="@../Css/responsive.css" text="Powered by Conor, David, Ryan, and Thomas" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
-               <font>
-                  <Font name="Cooper Black" size="37.0" />
-               </font>
-               <GridPane.margin>
-                  <Insets bottom="30.0" />
-               </GridPane.margin>
-            </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="174.0" prefWidth="3840.0" styleClass="title" stylesheets="@../Css/responsive.css" text="Welcome to the World of Software Engineering" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Button fx:id="rightPhotoButton" mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" styleClass="button2" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#001c48" height="1167.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="649.0" GridPane.rowIndex="3" />
+            <Button fx:id="leftPhotoButton" mnemonicParsing="false" prefHeight="360.0" prefWidth="193.0" styleClass="button2" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="SFWE 301 Students have officially completed their semester projects!" wrappingWidth="843.4702968597412" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <font>
                   <Font name="Cooper Black" size="96.0" />
                </font>
-               <padding>
-                  <Insets top="30.0" />
-               </padding>
-               <GridPane.margin>
-                  <Insets />
-               </GridPane.margin>
-            </Button>
+            </Text>
          </children>
          <rotationAxis>
             <Point3D />
